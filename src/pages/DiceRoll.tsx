@@ -5,7 +5,6 @@ import enemyReducer, { initialEnemyProfile } from "../reducers/enemyReducer"
 
 
 const DiceRoll: React.FC = () => {
-    const [locationSetting, setLocationSetting] = useState()
 
 
     const [notationInfo, dispatchNotationInfo] = useReducer(notationReducer, initialNotationInfo)
